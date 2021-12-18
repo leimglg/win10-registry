@@ -1,0 +1,3 @@
+# install wsl (powershell)
+wsl --install
+# need to restart before proceding
