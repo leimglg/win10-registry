@@ -17,7 +17,7 @@ mklink "C:\Users\leimg\AppData\Roaming\Code\User\keybindings.json" "C:\Users\lei
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt update
 sudo apt upgrade
-sudo apt install neovim fzf ripgrep tmux python3-pip julia zsh
+sudo apt install neovim fzf ripgrep tmux python3-pip julia zsh nodejs
 pip3 install pynvim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 cd
